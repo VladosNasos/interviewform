@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Анкета для співбесіди</string>
+    <string name="full_name_label">ПІБ:</string>
+    <string name="age_label">Вік:</string>
+    <string name="salary_label">Бажана зарплатня: %1$d USD</string>
+    <string name="desired_salary">Бажана зарплатня:</string>
+    <string name="submit_button">Здати тест</string>
+    <string name="additional_skills">Додаткові навички:</string>
+    <string name="experience_checkbox">Досвід роботи від 2 років</string>
+    <string name="teamwork_checkbox">Навички командної розробки</string>
+    <string name="travel_checkbox">Готовність до відряджень</string>
+    <string name="result_positive">Вітаємо! Ви пройшли тест. Контакти компанії: email@example.com, +1234567890</string>
+    <string name="result_negative">На жаль, ви не набрали достатню кількість балів для проходження тесту.</string>
+
+    <!-- Вопросы и ответы -->
+    <string name="question1">1. Язык программирования Java является:</string>
+    <string name="q1_option1">Компилируемым</string>
+    <string name="q1_option2">Интерпретируемым</string>
+    <string name="q1_option3">Компилируемо-интерпретируемым</string>
+
+    <string name="question2">2. Что делает сборщик мусора в Java?</string>
+    <string name="q2_option1">Удаляет неиспользуемые объекты из памяти</string>
+    <string name="q2_option2">Управляет потоками ввода-вывода</string>
+    <string name="q2_option3">Оптимизирует код во время выполнения</string>
+
+    <string name="question3">3. Какого типа наследование поддерживает Java?</string>
+    <string name="q3_option1">Множественное наследование классов</string>
+    <string name="q3_option2">Множественное наследование интерфейсов</string>
+    <string name="q3_option3">Множественное наследование классов и интерфейсов</string>
+
+    <string name="question4">4. Что является основными принципами ООП?</string>
+    <string name="q4_option1">Инкапсуляция, наследование, полиморфизм</string>
+    <string name="q4_option2">Сериализация, десериализация, потокобезопасность</string>
+    <string name="q4_option3">Рефлексия, аннотации, сборка мусора</string>
+
+    <string name="question5">5. Что такое final классы в Java?</string>
+    <string name="q5_option1">Классы, которые не могут быть наследованы</string>
+    <string name="q5_option2">Классы, которые нельзя инстанцировать</string>
+    <string name="q5_option3">Классы, которые могут быть переопределены</string>
+
+    <!-- Сообщения об ошибках -->
+    <string name="error_age">Вік не відповідає вимогам компанії (від 21 до 40 років).</string>
+    <string name="error_salary">Заробітна платня не відповідає пропозиції компанії (%1$d - %2$d USD).</string>
+</resources>

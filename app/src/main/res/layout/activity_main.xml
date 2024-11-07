@@ -1,0 +1,249 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- ПІБ -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/full_name_label" />
+
+        <EditText
+            android:id="@+id/edit_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Введите ваше полное имя" />
+
+        <!-- Вік -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/age_label" />
+
+        <EditText
+            android:id="@+id/edit_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Введите ваш возраст" />
+
+        <!-- Зарплата (SeekBar) -->
+        <TextView
+            android:id="@+id/text_salary_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Бажана зарплатня: 1000 USD" />
+
+        <SeekBar
+            android:id="@+id/seekbar_salary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="2000"
+            android:progress="0" />
+
+        <!-- Вопрос 1 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question1"
+            android:paddingTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_q1_option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q1_option1" />
+
+            <RadioButton
+                android:id="@+id/radio_q1_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q1_option2" />
+
+            <RadioButton
+                android:id="@+id/radio_q1_option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q1_option3" />
+        </RadioGroup>
+
+        <!-- Вопрос 2 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question2"
+            android:paddingTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_q2_option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q2_option1" />
+
+            <RadioButton
+                android:id="@+id/radio_q2_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q2_option2" />
+
+            <RadioButton
+                android:id="@+id/radio_q2_option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q2_option3" />
+        </RadioGroup>
+
+        <!-- Вопрос 3 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question3"
+            android:paddingTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_q3_option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q3_option1" />
+
+            <RadioButton
+                android:id="@+id/radio_q3_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q3_option2" />
+
+            <RadioButton
+                android:id="@+id/radio_q3_option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q3_option3" />
+        </RadioGroup>
+
+        <!-- Вопрос 4 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question4"
+            android:paddingTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_q4_option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q4_option1" />
+
+            <RadioButton
+                android:id="@+id/radio_q4_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q4_option2" />
+
+            <RadioButton
+                android:id="@+id/radio_q4_option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q4_option3" />
+        </RadioGroup>
+
+        <!-- Вопрос 5 -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question5"
+            android:paddingTop="16dp" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_question5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_q5_option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q5_option1" />
+
+            <RadioButton
+                android:id="@+id/radio_q5_option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q5_option2" />
+
+            <RadioButton
+                android:id="@+id/radio_q5_option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q5_option3" />
+        </RadioGroup>
+
+        <!-- Дополнительные навыки (CheckBox) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/additional_skills"
+            android:paddingTop="16dp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/experience_checkbox" />
+
+        <CheckBox
+            android:id="@+id/checkbox_teamwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/teamwork_checkbox" />
+
+        <CheckBox
+            android:id="@+id/checkbox_travel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/travel_checkbox" />
+
+        <!-- Кнопка "Здати тест" -->
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_button"
+            android:enabled="false"
+            android:paddingTop="16dp" />
+
+        <!-- Результат -->
+        <TextView
+            android:id="@+id/text_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:paddingTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
